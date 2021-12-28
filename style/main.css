@@ -1,0 +1,43 @@
+/** VARIABLES */
+:root {
+  --red: #e50914;
+  --black: #141414;
+}
+
+/** RESET CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** STANDARD CSS */
+
+body {
+  background-color: var(--black);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--red);
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
